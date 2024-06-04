@@ -2,7 +2,7 @@
  * Blocks for driving the Kitronik :GAME Controller
  */
 //% weight=100 color=#00A654 icon="\uf11b" block=":GAME Controller"
-//% groups='["Inputs", "Feedback"]'
+//% groups='["Invoer", "Feedback"]'
 namespace Kitronik_Game_Controller {
     /**
     *:GAME Controller Standard Buttons
@@ -81,7 +81,7 @@ namespace Kitronik_Game_Controller {
      * Determines if a :GAME Controller button is pressed
      * @param button press to be checked
      */
-    //% group=Inputs
+    //% group=Invoer
     //% blockId="kitronik_controller_ispressed" block="%button|is ingedrukt"
     //% button.fieldEditor="gridpicker" button.fieldOptions.columns=3
     //% weight=95 blockGap=8
@@ -96,7 +96,7 @@ namespace Kitronik_Game_Controller {
      * @param button press to be checked
      * @param event happening on the button, eg: click
      */
-    //% group=Inputs
+    //% group=Invoer
     //% blockId="kitronik_controller_button_press_on_event" block="als %button|is %event"
     //% button.fieldEditor="gridpicker" button.fieldOptions.columns=3
     //% weight=93 blockGap=8

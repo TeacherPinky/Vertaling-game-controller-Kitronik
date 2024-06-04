@@ -59,7 +59,7 @@ namespace Kitronik_Game_Controller {
      * @param run_time is the length of time the motor will run in ms, eg: 100
      */
     //% group=Feedback
-    //% blockId="kitronik_controller_run_motor" block="zet motor %run_time|ms" aan icon="\uf080"
+    //% blockId="kitronik_controller_run_motor" block="zet trilmotor %run_time|ms" aan icon="\uf080"
     //% weight=92 blockGap=8
     export function runMotor(run_time: number): void {
         pins.digitalWritePin(DigitalPin.P1, 1)
